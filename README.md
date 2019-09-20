@@ -139,7 +139,7 @@ The response should be the `JWT` token that you will use to access other routes.
 To start registering hours, you must provide the hours restrictions from your company.
 
 ```sh
-curl -X POST \
+curl -X PUT \
 	 -H "Content-Type: application/json" \
 	 -H "Bearer: JWT-TOKEN-HERE" \
 	 -d '{"daily_hours":"08:00", "lunch_hours":"01:00"}' \
@@ -152,11 +152,13 @@ Now, start inserting your clock in/out.
 curl -X POST \
 	 -H "Content-Type: application/json" \
 	 -H "Bearer: JWT-TOKEN-HERE" \
-	 -d '{"time":"2019-02-12T08:30:27-04:00", "reason":"IN"}' \
-	 http://localhost:3333/clocks
+	 -d '{"hour":"08:30", "reason":"IN"}' \
+	 http://localhost:3333/2019-01-12/clocks
 ```
 
 The reason can be `IN`, `LUNCH_OUT`, `LUNCH_IN`, `OTHERS_OUT`, `OTHERS_IN`, `OUT`.
+
+`LUNCH_OUT` means you are going out for lunch and `LUNCH_IN` you are getting back from lunch. Same idea for `OTHERS_OUT` and `OTHERS_IN`.
 
 An `OUT` means your day is finished and the amount of hours worked (or not) will be added to your balance.
 
