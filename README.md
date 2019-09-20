@@ -213,7 +213,7 @@ My Linkedin: [https://www.linkedin.com/in/artenes/](https://www.linkedin.com/in/
 * [Best README template](https://github.com/othneildrew/Best-README-Template) for the great README template.
 * [Rocketseat](https://rocketseat.com.br/) for teaching how to make Node.js apps.
 * [24 hours by panyawut norrasing from the Noun Project](https://thenounproject.com/search/?q=hours&i=2866380) for the application icon.
-
+* [REST API docs](https://github.com/jamescooke/restapidocs) for a sample on how to document a REST API in markdown.
 
 
 
