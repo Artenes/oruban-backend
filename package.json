@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:Artenes/oruban-backend.git",
   "author": "Artenes Nogueira <artenesama@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
 }
