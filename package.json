@@ -5,15 +5,21 @@
   "repository": "git@github.com:Artenes/oruban-backend.git",
   "author": "Artenes Nogueira <artenesama@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
   "devDependencies": {
     "eslint": "^6.4.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.3.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.1",
-    "prettier": "^1.18.2"
+    "nodemon": "^1.19.2",
+    "prettier": "^1.18.2",
+    "sucrase": "^3.10.1"
   },
   "dependencies": {
-    "dotenv": "^8.1.0"
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1"
   }
 }
