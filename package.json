@@ -1,0 +1,8 @@
+{
+  "name": "oruban-backend",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:Artenes/oruban-backend.git",
+  "author": "Artenes Nogueira <artenesama@gmail.com>",
+  "license": "MIT"
+}
