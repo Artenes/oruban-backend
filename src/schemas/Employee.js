@@ -12,6 +12,9 @@ const contractSchema = new mongoose.Schema(
   {
     daily_hours: String,
     lunch_hours: String,
+    daily_hours_max: String,
+    in_between_hours: String,
+    lunch_max: String,
   },
   { _id: false }
 );
